@@ -14,7 +14,7 @@ def load_models():
         max_length=512
     )
     load_dotenv()
-    client = Groq(api_key=os.getenv(api_key="groq_api_key"))
+    client = Groq(api_key=os.getenv("groq_api_key"))
     return classifier, client
 
 classifier, client = load_models()
