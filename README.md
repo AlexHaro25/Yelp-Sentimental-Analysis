@@ -1,3 +1,13 @@
+---
+title: Yelp Sentiment Analyzer
+emoji: 🍽️
+colorFrom: red
+colorTo: green
+sdk: streamlit
+sdk_version: "1.32.0"
+app_file: streamlit_app.py
+pinned: false
+---
 # Yelp Restaurant Review Sentiment Analyzer
 
 A machine learning pipeline that analyzes customer reviews and generates actionable business insights using NLP and Generative AI.
