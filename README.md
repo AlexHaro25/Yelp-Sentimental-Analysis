@@ -15,6 +15,9 @@ A machine learning pipeline that analyzes customer reviews and generates actiona
 ## Confusion Matrix
 ![Confusion Matrix](confusion_matrix.png)
 
+## Star Distribution
+![Star Distribution](star_distribution.png)
+
 ## Tech Stack
 - **DistilBERT** — Pre-trained transformer model for sentiment analysis
 - **Groq + LLaMA 3** — Generative AI for business insights
