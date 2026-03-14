@@ -2,7 +2,6 @@ import streamlit as st
 from transformers import pipeline
 from groq import Groq
 import os
-from dotenv import load_dotenv
 
 # Cargar modelos
 @st.cache_resource
@@ -13,7 +12,6 @@ def load_models():
         truncation=True,
         max_length=512
     )
-    load_dotenv()
     client = Groq(api_key=os.getenv("groq_api_key"))
     return classifier, client
 
