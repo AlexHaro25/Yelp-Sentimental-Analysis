@@ -17,6 +17,9 @@ A machine learning pipeline that analyzes customer reviews and generates actiona
 
 ## Star Distribution
 ![Star Distribution](star_distribution.png)
+> The U-shaped distribution is expected since Yelp Polarity 
+> contains only strongly positive and negative reviews, 
+> with few neutral ones.
 
 ## Tech Stack
 - **DistilBERT** — Pre-trained transformer model for sentiment analysis
