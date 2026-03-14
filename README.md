@@ -59,3 +59,6 @@ streamlit run app.py
 ## Sample Output
 - **Negative review** → "The food was cold and service was slow" → 100% NEGATIVE + recommendation to improve service training
 - **Positive review** → "Amazing food and staff" → 100% POSITIVE + recommendation to reward staff
+
+## Live Demo
+👉 [Try the app here](https://huggingface.co/spaces/AlexHaro25/review-analyzer)
